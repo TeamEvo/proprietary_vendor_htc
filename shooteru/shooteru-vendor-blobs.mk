@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for shooteru
 PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/charging:system/bin/charging \
-    vendor/htc/shooteru/proprietary/hdmid:system/bin/hdmid \
     vendor/htc/shooteru/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/shooteru/proprietary/htcbatt:system/bin/htcbatt \
     vendor/htc/shooteru/proprietary/load-modem.sh:system/bin/load-modem.sh \
