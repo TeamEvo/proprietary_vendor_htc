@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooteru
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooteru/proprietary/3D_calibration:system/bin/3D_calibration \
+    vendor/htc/shooteru/proprietary/3D_calibration_main:system/bin/3D_calibration_main \
     vendor/htc/shooteru/proprietary/charging:system/bin/charging \
     vendor/htc/shooteru/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/shooteru/proprietary/htcbatt:system/bin/htcbatt \
@@ -45,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/shooteru/proprietary/libC2D2.so:system/lib/libC2D2.so \
     vendor/htc/shooteru/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/htc/shooteru/proprietary/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/htc/shooteru/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/shooteru/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/htc/shooteru/proprietary/libaudcal.so:system/lib/libaudcal.so \
@@ -62,10 +63,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libqdp.so:system/lib/libqdp.so \
     vendor/htc/shooteru/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/htc/shooteru/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
+    vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooteru/proprietary/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/shooteru/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/htc/shooteru/proprietary/libcameraLN.so:system/lib/libcameraLN.so \
+    vendor/htc/shooteru/proprietary/libcameraSP.so:system/lib/libcameraSP.so \
     vendor/htc/shooteru/proprietary/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/shooteru/proprietary/libchromatix_qs_s5k4e1_preview.so:system/lib/libchromatix_qs_s5k4e1_preview.so \
+    vendor/htc/shooteru/proprietary/libchromatix_qs_s5k4e1_video.so:system/lib/libchromatix_qs_s5k4e1_video.so \
+    vendor/htc/shooteru/proprietary/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/htc/shooteru/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/shooteru/proprietary/liboemcamera_main.so:system/lib/liboemcamera_main.so \
     vendor/htc/shooteru/proprietary/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/shooteru/proprietary/libposteffect.so:system/lib/libposteffect.so \
     vendor/htc/shooteru/proprietary/libgemini.so:system/lib/libgemini.so \
@@ -73,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/shooteru/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/shooteru/proprietary/libv8.so:system/lib/libv8.so \
-    vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooteru/proprietary/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
     vendor/htc/shooteru/proprietary/libmpl.so:system/lib/libmpl.so \
     vendor/htc/shooteru/proprietary/libmllite.so:system/lib/libmllite.so \
